@@ -10,7 +10,31 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    
+    <div class="tab">
+    <button class="tablinks" onclick="openTab('change font')">Change font</button>
+    <button class="tablinks" onclick="openCity('change colors')">Change Colors</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="Change Font" class="tabcontent">
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <option id="fontSelectionBox" value="0">Select Font:</option>
+        <option value="1">Dyslexie</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="Change Colors" class="tabcontent">
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <option id="colorSelectionBox" value="0">Select color change:</option>
+        <option value="1">Decrease saturation of images to 95%</option>
+        <option value="2">Decrease brightness of images to 95%</option>
+      </select>
+    </div>
+  </div>
+
   </body>
 
 </DOCTYPE!>
