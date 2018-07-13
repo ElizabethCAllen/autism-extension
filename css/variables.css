@@ -1,0 +1,32 @@
+/*
+Error: Invalid CSS after "$image-tab-bkgrnd": expected selector or at-rule, was ":"
+        on line 6 of C:\Users\sage-\Documents\GitHub\autism-extension\sass\variables.scss
+
+1: //variables
+2: 
+3: //colors
+4: 
+5: $font-tab-bkgrnd:
+6: $image-tab-bkgrnd:
+7: $accent:
+
+Backtrace:
+C:\Users\sage-\Documents\GitHub\autism-extension\sass\variables.scss:6
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Ruby24-x64/bin/sass:23:in `load'
+C:/Ruby24-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$image-tab-bkgrnd\": expected selector or at-rule, was \":\"\A         on line 6 of C:\Users\sage-\Documents\GitHub\autism-extension\sass\variables.scss\A \A 1: //variables\A 2: \A 3: //colors\A 4: \A 5: $font-tab-bkgrnd:\A 6: $image-tab-bkgrnd:\A 7: $accent:"; }
