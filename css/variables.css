@@ -9,6 +9,9 @@ Error: Invalid CSS after "$image-tab-bkgrnd": expected selector or at-rule, was 
 5: $font-tab-bkgrnd:
 6: $image-tab-bkgrnd:
 7: $accent:
+8: 
+9: //text colors. Numbers are associated with colorSelectionBox values 1-4
+10: $text-color:
 
 Backtrace:
 C:\Users\sage-\Documents\GitHub\autism-extension\sass\variables.scss:6
@@ -29,4 +32,4 @@ C:/Ruby24-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"$image-tab-bkgrnd\": expected selector or at-rule, was \":\"\A         on line 6 of C:\Users\sage-\Documents\GitHub\autism-extension\sass\variables.scss\A \A 1: //variables\A 2: \A 3: //colors\A 4: \A 5: $font-tab-bkgrnd:\A 6: $image-tab-bkgrnd:\A 7: $accent:"; }
+  content: "Error: Invalid CSS after \"$image-tab-bkgrnd\": expected selector or at-rule, was \":\"\A         on line 6 of C:\Users\sage-\Documents\GitHub\autism-extension\sass\variables.scss\A \A 1: //variables\A 2: \A 3: //colors\A 4: \A 5: $font-tab-bkgrnd:\A 6: $image-tab-bkgrnd:\A 7: $accent:\A 8: \A 9: //text colors. Numbers are associated with colorSelectionBox values 1-4\A 10: $text-color:"; }

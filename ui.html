@@ -1,11 +1,11 @@
 <DOCTYPE!>
+<!-- will need event listeners for clicks in the associated js file for this, otherwise it will not tab correctly -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Autism Extension</title>
-    <!-- put a title in numbnuts -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
   </head>
@@ -24,20 +24,34 @@
             <option value="1">Dyslexie</option>
           </select>
         </div>
-        <div id="fontSize" class="custom-select">
-          <option value="0">14</option>
-          <option value="1">16</option>
-          <option value="2">18</option>
-          <option value="3">20</option>
+
+        <div>
+          <div id="fontSize" class="tabcontent">
+            <div class="custom-select" style="width:200px;">
+              <select>
+                <option id="colorSelectionBox" value="0">Select Font Size:</option>
+                <option value="1">14</option>
+                <option value="2">16</option>
+                <option value="3">18</option>
+                <option value="4">20</option>
+              </select>
+            </div>
+          </div>
         </div>
-        <div id="fontColor" class="custom-select">
-          <option class="" value="0">green-black</option>
-          <option value="1">blue-black</option>
-          <option value="2">deep gray</option>
-          <!-- what other colors??? -->
+        <div id="fontColor" class="tabcontent">
+          <div class="custom-select" style="width:200px">
+            <select>
+              <option class="" value="0">select font color</option>
+              <option value="2">green black</option>
+              <option value="3">blue-black</option>
+              <option value="4">deep gray</option>
+              <!-- what other colors??? -->
+            </select>
+          </div>
         </div>
       </div>
     </div>
+<!-- separate tab -->
     <div>
       <div id="Change Colors" class="tabcontent">
         <div class="custom-select" style="width:200px;">
